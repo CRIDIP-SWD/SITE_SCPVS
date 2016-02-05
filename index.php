@@ -18,6 +18,7 @@ if($constante->maintenance($_SERVER['REMOTE_ADDR']) == true)
 
 ob_start();
 if($view === 'index'){require "view/index.php";}
+if($view === 'mission'){require "view/mission.php";}
 
 $content = ob_get_clean();
 require "view/default.php";
