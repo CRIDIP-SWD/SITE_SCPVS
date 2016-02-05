@@ -22,6 +22,7 @@ if($view === 'mission'){require "view/mission.php";}
 if($view === 'blog'){require "view/blog.php";}
 if($view === 'partenaire'){require "view/partenaire.php";}
 if($view === 'contact'){require "view/contact.php";}
+if($view === 'don'){require "view/don.php";}
 
 $content = ob_get_clean();
 require "view/default.php";

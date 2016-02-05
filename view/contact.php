@@ -3,10 +3,9 @@
 <section id="page-title">
 
     <div class="container clearfix">
-        <h1>Contact</h1>
-        <span>Get in Touch with Us</span>
+        <h1>Nous Contactez</h1>
         <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>
+            <li><a href="#"><?= \App\constante::NOM_SITE; ?></a></li>
             <li class="active">Contact</li>
         </ol>
     </div>
