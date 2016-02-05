@@ -94,9 +94,7 @@
 
                         <div class="widget clearfix">
 
-                            <img src="images/footer-widget-logo.png" alt="" class="footer-logo">
-
-                            <p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
+                            <img src="<?= $constante->getUrl(array(), false, true); ?>logo/scpvs.png" alt="" class="footer-logo">
 
                             <div style="background: url('assets/images/world-map.png') no-repeat center center; background-size: 100%;">
                                 <address>
