@@ -135,7 +135,7 @@
                                 <div class="spost clearfix">
                                     <div class="entry-c">
                                         <div class="entry-title">
-                                            <h4><a href="#">16% d'obèse en France</a></h4>
+                                            <h4><a href="index.php?view=blog&sub=article&ref=1">16% d'obèse en France</a></h4>
                                         </div>
                                         <ul class="entry-meta">
                                             <li>04 Janvier 2016</li>
