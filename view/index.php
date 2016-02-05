@@ -103,115 +103,29 @@
         </div>
 
         <div class="container clearfix">
-
-            <div class="col_one_third">
-                <div class="feature-box fbox-effect">
-                    <div class="fbox-icon">
-                        <a href="#"><i class="icon-screen i-alt"></i></a>
+            <div id="posts" class="small-thumbs">
+                <div class="entry clearfix">
+                    <div class="entry-image">
+                        <a data-lightbox="image" href="images/blog/full/17.jpg"><img alt="Standard Post with Image" src="images/blog/small/17.jpg" class="image_fade" style="opacity: 1;"></a>
                     </div>
-                    <h3>Responsive Layout</h3>
-                    <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+                    <div class="entry-c">
+                        <div class="entry-title">
+                            <h2><a href="blog-single.html">This is a Standard post with a Preview Image</a></h2>
+                        </div>
+                        <ul class="entry-meta clearfix">
+                            <li><i class="icon-calendar3"></i> 10th February 2014</li>
+                            <li><a href="#"><i class="icon-user"></i> admin</a></li>
+                            <li><i class="icon-folder-open"></i> <a href="#">General</a>, <a href="#">Media</a></li>
+                            <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>
+                            <li><a href="#"><i class="icon-camera-retro"></i></a></li>
+                        </ul>
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                            <a class="more-link" href="blog-single.html">Read More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="col_one_third">
-                <div class="feature-box fbox-effect">
-                    <div class="fbox-icon">
-                        <a href="#"><i class="icon-eye i-alt"></i></a>
-                    </div>
-                    <h3>Retina Ready Graphics</h3>
-                    <p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Retina Icons, Fonts &amp; all others graphics are optimized.</p>
-                </div>
-            </div>
-
-            <div class="col_one_third col_last">
-                <div class="feature-box fbox-effect">
-                    <div class="fbox-icon">
-                        <a href="#"><i class="icon-beaker i-alt"></i></a>
-                    </div>
-                    <h3>Powerful Performance</h3>
-                    <p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
-                </div>
-            </div>
-
-            <div class="clear"></div>
-
-            <div class="col_one_third nobottommargin">
-                <div class="feature-box fbox-effect">
-                    <div class="fbox-icon">
-                        <a href="#"><i class="icon-stack i-alt"></i></a>
-                    </div>
-                    <h3>Premium Sliders Included</h3>
-                    <p>Canvas included 20+ custom designed Slider Pages with Premium Sliders like Layer, Revolution, Swiper &amp; others.</p>
-                </div>
-            </div>
-
-            <div class="col_one_third nobottommargin">
-                <div class="feature-box fbox-effect">
-                    <div class="fbox-icon">
-                        <a href="#"><i class="icon-tint i-alt"></i></a>
-                    </div>
-                    <h3>Unlimited Color Options</h3>
-                    <p>Change the color scheme of the Theme in a flash just by changing the 6-digit HEX code in the colors.php file.</p>
-                </div>
-            </div>
-
-            <div class="col_one_third nobottommargin col_last">
-                <div class="feature-box fbox-effect">
-                    <div class="fbox-icon">
-                        <a href="#"><i class="icon-text-width i-alt"></i></a>
-                    </div>
-                    <h3>CUSTOMIZABLE FONTS</h3>
-                    <p>Use any Font you like from Google Web Fonts, Typekit or other Web Fonts. They will blend in perfectly.</p>
-                </div>
-            </div>
-
-            <div class="clear"></div><div class="line"></div>
-
-            <div id="oc-clients-full" class="owl-carousel image-carousel">
-
-                <a href="#"><img src="images/clients/1.png" alt="Clients"></a>
-                <a href="#"><img src="images/clients/2.png" alt="Clients"></a>
-                <a href="#"><img src="images/clients/3.png" alt="Clients"></a>
-                <a href="#"><img src="images/clients/4.png" alt="Clients"></a>
-                <a href="#"><img src="images/clients/5.png" alt="Clients"></a>
-                <a href="#"><img src="images/clients/6.png" alt="Clients"></a>
-                <a href="#"><img src="images/clients/7.png" alt="Clients"></a>
-                <a href="#"><img src="images/clients/8.png" alt="Clients"></a>
-                <a href="#"><img src="images/clients/9.png" alt="Clients"></a>
-                <a href="#"><img src="images/clients/10.png" alt="Clients"></a>
-                <a href="#"><img src="images/clients/11.png" alt="Clients"></a>
-                <a href="#"><img src="images/clients/12.png" alt="Clients"></a>
-
-            </div>
-
-            <script type="text/javascript">
-
-                jQuery(document).ready(function($) {
-
-                    var ocClients = $("#oc-clients-full");
-
-                    ocClients.owlCarousel({
-                        items: 6,
-                        margin: 30,
-                        loop: true,
-                        nav: false,
-                        autoplay: true,
-                        dots: false,
-                        autoplayHoverPause: true,
-                        responsive:{
-                            0:{ items:2 },
-                            480:{ items:3 },
-                            768:{ items:4 },
-                            992:{ items:5 },
-                            1200:{ items:6 }
-                        }
-                    });
-
-                });
-
-            </script>
-
         </div>
 
     </div>
