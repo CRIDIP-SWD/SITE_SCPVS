@@ -61,6 +61,7 @@
 
                     <ul>
                         <li><a href="index.php?view=index"><div>Accueil</div></a></li>
+                        <li><a href="index.php?view=blog"><div>Articles</div></a></li>
                         <li><a href="index.php?view=mission"><div>Nos Missions</div></a></li>
                         <li><a href="index.php?view=partenaire"><div>Nos Partenaires</div></a></li>
                         <li><a href="index.php?view=contact"><div>Contactez-nous !</div></a></li>
@@ -97,15 +98,14 @@
 
                             <p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
 
-                            <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+                            <div style="background: url('assets/images/world-map.png') no-repeat center center; background-size: 100%;">
                                 <address>
-                                    <strong>Headquarters:</strong><br>
-                                    795 Folsom Ave, Suite 600<br>
-                                    San Francisco, CA 94107<br>
+                                    <strong>Siège de l'association:</strong><br>
+                                    15 Rue Lacépède<br>
+                                    75005 PARIS<br>
                                 </address>
-                                <abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
-                                <abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
-                                <abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+                                <abbr title="Phone Number"><strong>Tél:</strong></abbr> 07 83 14 41<br>
+                                <abbr title="Email Address"><strong>Email:</strong></abbr> contact@scpvs.org
                             </div>
 
                         </div>
@@ -116,16 +116,14 @@
 
                         <div class="widget widget_links clearfix">
 
-                            <h4>Blogroll</h4>
+                            <h4>Sitemap</h4>
 
                             <ul>
-                                <li><a href="http://codex.wordpress.org/">Documentation</a></li>
-                                <li><a href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-                                <li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
-                                <li><a href="http://wordpress.org/support/">Support Forums</a></li>
-                                <li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
-                                <li><a href="http://wordpress.org/news/">WordPress Blog</a></li>
-                                <li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
+                                <li><a href="index.php?view=index">Accueil</a></li>
+                                <li><a href="index.php?view=blog">Articles</a></li>
+                                <li><a href="index.php?view=mission">Missions</a></li>
+                                <li><a href="index.php?view=partenaire">Partenaires</a></li>
+                                <li><a href="index.php?view=contact">Nous Contactez</a></li>
                             </ul>
 
                         </div>
@@ -135,41 +133,20 @@
                     <div class="col_one_third col_last">
 
                         <div class="widget clearfix">
-                            <h4>Recent Posts</h4>
+                            <h4>Articles récents</h4>
 
                             <div id="post-list-footer">
                                 <div class="spost clearfix">
                                     <div class="entry-c">
                                         <div class="entry-title">
-                                            <h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
+                                            <h4><a href="#">16% d'obèse en France</a></h4>
                                         </div>
                                         <ul class="entry-meta">
-                                            <li>10th July 2014</li>
+                                            <li>04 Janvier 2016</li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <div class="spost clearfix">
-                                    <div class="entry-c">
-                                        <div class="entry-title">
-                                            <h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>
-                                        </div>
-                                        <ul class="entry-meta">
-                                            <li>10th July 2014</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="spost clearfix">
-                                    <div class="entry-c">
-                                        <div class="entry-title">
-                                            <h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>
-                                        </div>
-                                        <ul class="entry-meta">
-                                            <li>10th July 2014</li>
-                                        </ul>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
@@ -178,24 +155,6 @@
                 </div>
 
                 <div class="col_one_third col_last">
-
-                    <div class="widget clearfix" style="margin-bottom: -20px;">
-
-                        <div class="row">
-
-                            <div class="col-md-6 bottommargin-sm">
-                                <div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-                                <h5 class="nobottommargin">Total Downloads</h5>
-                            </div>
-
-                            <div class="col-md-6 bottommargin-sm">
-                                <div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-                                <h5 class="nobottommargin">Clients</h5>
-                            </div>
-
-                        </div>
-
-                    </div>
 
                     <div class="widget subscribe-widget clearfix">
                         <h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
