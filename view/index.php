@@ -107,22 +107,22 @@
             <div id="posts" class="small-thumbs">
                 <div class="entry clearfix">
                     <div class="entry-image">
-                        <a data-lightbox="image" href="images/blog/full/17.jpg"><img alt="Standard Post with Image" src="images/blog/small/17.jpg" class="image_fade" style="opacity: 1;"></a>
+                        <a data-lightbox="image" href="<?= $constante->getUrl(array(), false, true); ?>article/obesite_monde.jpg"><img alt="16% d'obèse en france" src="<?= $constante->getUrl(array(), false, true); ?>article/obesite_monde.jpg" class="image_fade" style="opacity: 1;"></a>
                     </div>
                     <div class="entry-c">
                         <div class="entry-title">
-                            <h2><a href="blog-single.html">This is a Standard post with a Preview Image</a></h2>
+                            <h2><a href="index.php?view=blog&sub=article&ref=1">16% d'obèse en france</a></h2>
                         </div>
                         <ul class="entry-meta clearfix">
-                            <li><i class="icon-calendar3"></i> 10th February 2014</li>
-                            <li><a href="#"><i class="icon-user"></i> admin</a></li>
-                            <li><i class="icon-folder-open"></i> <a href="#">General</a>, <a href="#">Media</a></li>
-                            <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>
-                            <li><a href="#"><i class="icon-camera-retro"></i></a></li>
+                            <li><i class="icon-calendar3"></i> 04 Janvier 2016</li>
+                            <li><a href="#"><i class="icon-user"></i> SCPVS</a></li>
+                            <li><i class="icon-folder-open"></i> <a href="#">General</a>, <a href="#">Obésité</a></li>
+                            <!--<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>-->
+                            <!--<li><a href="#"><i class="icon-camera-retro"></i></a></li>-->
                         </ul>
                         <div class="entry-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
-                            <a class="more-link" href="blog-single.html">Read More</a>
+                            <p>Le constat est alarmant, lors des derniers recensements de 2015, le pourcentage de la population française atteint d'obésité est de 16%...</p>
+                            <a class="more-link" href="index.php?view=blog&sub=article&ref=1">En savoir plus...</a>
                         </div>
                     </div>
                 </div>
