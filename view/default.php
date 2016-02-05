@@ -191,7 +191,7 @@
                                     <i class="icon-facebook"></i>
                                     <i class="icon-facebook"></i>
                                 </a>
-                                <a href="#"><small style="display: block; margin-top: 3px;"><strong>Suivez nous</strong><br>sur Facebook</small></a>
+                                <a href="#"><small style="display: block; margin-top: 3px;"><strong>Suivez-nous</strong><br>sur Facebook</small></a>
                             </div>
                             <div class="col-md-6 clearfix">
                                 <a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
