@@ -103,6 +103,7 @@
         </div>
 
         <div class="container clearfix">
+            <h2>A la Une</h2>
             <div id="posts" class="small-thumbs">
                 <div class="entry clearfix">
                     <div class="entry-image">
