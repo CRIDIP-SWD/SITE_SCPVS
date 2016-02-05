@@ -97,7 +97,7 @@
 
         <div class="promo promo-full promo-border header-stick bottommargin-lg">
             <div class="container clearfix">
-                <h3>Faite un dons à l'association et aider 7 millions de français à ce sentir<br> mieux dans leur corps.</h3>
+                <h3>Faite un dons à l'association et aider 7 millions de français à ce sentir<br>mieux dans leur corps.</h3>
                 <a href="index.php?view=don" class="button button-reveal button-xlarge button-rounded tright"><i class="icon-angle-right"></i><span>Faire un dons</span></a>
             </div>
         </div>
