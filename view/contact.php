@@ -24,7 +24,7 @@
         <div id="contact-form-overlay-mini" class="clearfix">
 
             <div class="fancy-title title-dotted-border">
-                <h3>Send us an Email</h3>
+                <h3>Envoyer nous un message</h3>
             </div>
 
             <div id="contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
