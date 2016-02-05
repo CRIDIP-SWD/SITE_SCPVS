@@ -153,7 +153,7 @@
                 <div class="col_one_third col_last">
 
                     <div class="widget subscribe-widget clearfix">
-                        <h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
+                        <h5><strong>Souscrivez</strong> à notre newsletter mensuel:</h5>
                         <div id="widget-subscribe-form-result" data-notify-type="success" data-notify-msg=""></div>
                         <form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin">
                             <div class="input-group divcenter">
