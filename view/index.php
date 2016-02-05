@@ -97,9 +97,8 @@
 
         <div class="promo promo-full promo-border header-stick bottommargin-lg">
             <div class="container clearfix">
-                <h3>Call us today at <span>+91.22.57412541</span> or Email us at <span>support@canvas.com</span></h3>
-                <span>We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful</span>
-                <a href="#" class="button button-reveal button-xlarge button-rounded tright"><i class="icon-angle-right"></i><span>Browse Now</span></a>
+                <h3>Faite un dons à l'association et aider 7 millions de français à ce sentir mieux dans leur corps.</h3>
+                <a href="index.php?view=don" class="button button-reveal button-xlarge button-rounded tright"><i class="icon-angle-right"></i><span>Faire un dons</span></a>
             </div>
         </div>
 
