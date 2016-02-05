@@ -32,10 +32,10 @@ class app
 class constante extends app{
 
     const HTTP              = "http://";
-    const URL               = "gameshop.cridip-swd.com/";
+    const URL               = "scpvs.cridip-swd.com/";
     const ASSETS            = "assets/";
-    const NOM_SITE          = "Gameshop";
-    const SOURCES           = "http://ns342142.ip-5-196-76.eu/sources/gameshop/";
+    const NOM_SITE          = "SCPVS";
+    const SOURCES           = "http://ns342142.ip-5-196-76.eu/sources/scpvs/";
     const MAINTENANCE       = 0;
     const IP_MAIN           = "109.190.224.161";
     const IP_SRC            = "ns342142.ip-5-196-76.eu";
