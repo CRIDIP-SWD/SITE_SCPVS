@@ -94,8 +94,6 @@
 
                         <div class="widget clearfix">
 
-                            <img src="<?= $constante->getUrl(array(), false, true); ?>logo/scpvs.png" alt="" width="80" class="footer-logo">
-
                             <div style="background: url('assets/images/world-map.png') no-repeat center center; background-size: 100%;">
                                 <address>
                                     <strong>Siège de l'association:</strong><br>
