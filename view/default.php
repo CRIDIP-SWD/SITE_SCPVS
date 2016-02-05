@@ -82,8 +82,8 @@
                 <div class="swiper-slide dark" style="background-image: url('<?= $constante->getUrl(array(), false, true); ?>slide/slide_1.jpg');">
                     <div class="container clearfix">
                         <div class="slider-caption slider-caption-center">
-                            <h2 data-caption-animate="fadeInUp">Bienvenue sur le site de <strong>SCPVS</strong></h2>
-                            <p data-caption-animate="fadeInUp" data-caption-delay="200"><strong>S</strong>olutions <strong>C</strong>hirurgies <strong>P</strong>athologies <strong>V</strong>itale <strong>S</strong>anté</p>
+                            <h2 data-caption-animate="fadeInUp" style="color: #0b0b0b;">Bienvenue sur le site de <strong>SCPVS</strong></h2>
+                            <p data-caption-animate="fadeInUp" data-caption-delay="200" style="color:#0b0b0b;"><strong>S</strong>olutions <strong>C</strong>hirurgies <strong>P</strong>athologies <strong>V</strong>itale <strong>S</strong>anté</p>
                         </div>
                     </div>
                 </div>
