@@ -79,7 +79,7 @@
 
         <div class="swiper-container swiper-parent">
             <div class="swiper-wrapper">
-                <div class="swiper-slide dark" style="background-image: url('<?php $constante->getUrl(array(), false, true); ?>slide/slide_1.jpg');">
+                <div class="swiper-slide dark" style="background-image: url('<?= $constante->getUrl(array(), false, true); ?>slide/slide_1.jpg');">
                     <div class="container clearfix">
                         <div class="slider-caption slider-caption-center">
                             <h2 data-caption-animate="fadeInUp">Bienvenue sur le site de <strong>SCPVS</strong></h2>
