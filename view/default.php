@@ -195,14 +195,14 @@
                                     <i class="icon-facebook"></i>
                                     <i class="icon-facebook"></i>
                                 </a>
-                                <a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
+                                <a href="#"><small style="display: block; margin-top: 3px;"><strong>Suivez nous</strong><br>sur Facebook</small></a>
                             </div>
                             <div class="col-md-6 clearfix">
                                 <a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
                                     <i class="icon-rss"></i>
                                     <i class="icon-rss"></i>
                                 </a>
-                                <a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
+                                <a href="#"><small style="display: block; margin-top: 3px;"><strong>Souscrivez </strong><br>au flux RSS</small></a>
                             </div>
 
                         </div>
@@ -222,7 +222,7 @@
             <div class="container clearfix">
 
                 <div class="col_half">
-                    Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
+                    Copyrights &copy; 2016. SCPVS Tout Droit Reservé suivant les termes des législation en vigueurs .<br>
                     <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
                 </div>
 
@@ -253,11 +253,6 @@
                             <i class="icon-vimeo"></i>
                         </a>
 
-                        <a href="#" class="social-icon si-small si-borderless si-github">
-                            <i class="icon-github"></i>
-                            <i class="icon-github"></i>
-                        </a>
-
                         <a href="#" class="social-icon si-small si-borderless si-yahoo">
                             <i class="icon-yahoo"></i>
                             <i class="icon-yahoo"></i>
@@ -271,7 +266,7 @@
 
                     <div class="clear"></div>
 
-                    <i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
+                    <i class="icon-envelope2"></i> contact@scpvs.org <span class="middot">&middot;</span> <i class="icon-headphones"></i> +33 7 83 78 14 41
                 </div>
 
             </div>
