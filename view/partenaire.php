@@ -1,4 +1,4 @@
-<?php if(isset($_GET['sub']) && $_GET['sub'] == 'partenaire'): ?>
+
     <!-- Page Title
     ============================================= -->
     <section id="page-title">
@@ -41,4 +41,3 @@
             </div>
         </div>
     </section>
-<?php endif; ?>
