@@ -1,7 +1,20 @@
 <?php if(isset($_GET['sub']) && $_GET['sub'] == 'partenaire'): ?>
+    <!-- Page Title
+    ============================================= -->
+    <section id="page-title">
+
+        <div class="container clearfix">
+            <h1>PARTENAIRES</h1>
+            <ol class="breadcrumb">
+                <li><a href="#">SCPVS</a></li>
+                <li class="active">Nos Partenaires</li>
+            </ol>
+        </div>
+
+    </section><!-- #page-title end -->
     <div class="col_full nobottommargin clearfix">
 
-        <h3>6 Columns</h3>
+        <h3>Voici nos partenaires:</h3>
 
         <div class="masonry-thumbs col-6" data-big="3" data-lightbox="gallery">
             <a href="assets/images/portfolio/full/1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="assets/images/portfolio/4/1.jpg" alt="Gallery Thumb 1"></a>
