@@ -13,11 +13,11 @@
 <section id="page-title">
 
     <div class="container clearfix">
-        <h1>Blog Single</h1>
+        <h1><?= $article[0]->titre_article; ?></h1>
         <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Blog</a></li>
-            <li class="active">Blog Single</li>
+            <li><a href="#">SCPVS</a></li>
+            <li><a href="#">Article</a></li>
+            <li class="active"><?= $article[0]->titre_article; ?></li>
         </ol>
     </div>
 
