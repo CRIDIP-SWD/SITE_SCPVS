@@ -30,7 +30,7 @@
 
             <!-- Contact Form
             ============================================= -->
-            <form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+            <form class="nobottommargin" id="template-contactform" name="template-contactform" action="assets/include/sendemail.php" method="post">
 
                 <div class="col_full">
                     <label for="template-contactform-name">Votre Nom <small>*</small></label>
