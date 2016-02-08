@@ -271,7 +271,7 @@ class DB extends app{
     private $host = "localhost";
     private $username = "root";
     private $password = "1992maxime";
-    private $database = "gameshop";
+    private $database = "scpvs";
     private $db;
 
     public function __construct($host = null, $username = null, $password = null, $database = null)
