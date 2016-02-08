@@ -17,7 +17,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
         $botcheck = $_POST['template-contactform-botcheck'];
 
-        $toemail = 'mmockelyn@gmail.com'; // Your Email Address
+        $toemail = 'contact@scpvs.org'; // Your Email Address
         $toname = 'Contact SCPVS'; // Your Name
 
         if( $botcheck == '' ) {
@@ -32,7 +32,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
             $phone = isset($phone) ? "Phone: $phone<br><br>" : '';
             $message = isset($message) ? "Message: $message<br><br>" : '';
 
-            $referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>This Form was submitted from: ' . $_SERVER['HTTP_REFERER'] : '';
+            $referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>Ce formulaire à été soumis depuis l\'adresse suivante: ' . $_SERVER['HTTP_REFERER'] : '';
 
             $body = "$name $email $phone $message $referrer";
 
@@ -40,9 +40,9 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
             $sendEmail = $mail->Send();
 
             if( $sendEmail == true ):
-                echo 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
+                echo 'Nous avons reçu votre message, le temps de traitement est de <strong>24 Heure</strong> en moyenne.';
             else:
-                echo 'Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.<br /><br /><strong>Reason:</strong><br />' . $mail->ErrorInfo . '';
+                echo "L'email n'est pas partie à cause d'une erreur inconnue. Veuillez réessayer plus tard.<br /><br /><strong>Raison possible:</strong><br />" . $mail->ErrorInfo;
             endif;
         } else {
             echo 'Bot <strong>Detected</strong>.! Clean yourself Botster.!';
