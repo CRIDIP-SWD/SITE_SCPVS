@@ -34,7 +34,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
             $referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>This Form was submitted from: ' . $_SERVER['HTTP_REFERER'] : '';
 
-            $body = "$name $email $phone $service $message $referrer";
+            $body = "$name $email $phone $message $referrer";
 
             $mail->MsgHTML( $body );
             $sendEmail = $mail->Send();
