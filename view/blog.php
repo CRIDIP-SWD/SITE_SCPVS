@@ -56,8 +56,9 @@
                     ============================================= -->
                     <div class="entry-content notopmargin">
 
-                        <p>En France 30% des personnes sont en surpoids et 16% obèses. Rythme de vie et mauvaises habitudes alimentaires, une spirale que l'on veut enrayer. Une fois par an, enfants, pédiatres et diététiciens se réunissent pour mieux comprendre les causes du problème. Souvent cela commence par des recettes simples. Les parents peuvent ainsi comparer leurs expériences. Enfin, il faut éviter la sédentarité. 10 000 pas par jour sont recommandés, soit environ 1h 30 de marche à une vitesse normale.</p>
-                        <small>Source: francetvinfo.fr</small>
+                        <p><i>En France 30% des personnes sont en surpoids et 16% obèses. Rythme de vie et mauvaises habitudes alimentaires, une spirale que l'on veut enrayer. Une fois par an, enfants, pédiatres et diététiciens se réunissent pour mieux comprendre les causes du problème. Souvent cela commence par des recettes simples. Les parents peuvent ainsi comparer leurs expériences. Enfin, il faut éviter la sédentarité. 10 000 pas par jour sont recommandés, soit environ 1h 30 de marche à une vitesse normale.</i></p>
+                        <p>Réalisé pour le compte de la Mutuelle Générale de l'Education nationale (MGEN), l'étude s'est efforcée de cerner les habitudes de vie des Français et leurs liens avec l'obésité. Il en ressort que 76% des Français se considèrent en bonne santé, alors que 30% sont en surpoids et 16% obèses. Le pourcentage d'obèses est plus élevé chez les inactifs (20%) et chez les 50-64 ans (21%), les jeunes étant en revanche plus épargnés (seulement 9% d'obèses).On parle de surpoids pour un indice de masse corporelle (IMC calculé par un ratio entre le poids et la taille) situé entre 25 et 30 et d'obésité au dessus de 30.</p>
+                        <small>Source: francetvinfo.fr et huffingtonpost.fr</small>
 
 
                         <div class="clear"></div>
