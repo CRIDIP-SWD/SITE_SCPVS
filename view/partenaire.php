@@ -20,10 +20,10 @@
                     <h3>Voici nos partenaires:</h3>
 
                     <div class="masonry-thumbs col-6" data-big="3" data-lightbox="gallery">
-                        <a href="assets/images/portfolio/full/1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="assets/images/portfolio/4/1.jpg" alt="Gallery Thumb 1"></a>
-                        <a href="assets/images/portfolio/full/2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="assets/images/portfolio/4/2.jpg" alt="Gallery Thumb 2"></a>
-                        <a href="assets/images/portfolio/full/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="assets/images/portfolio/4/3.jpg" alt="Gallery Thumb 3"></a>
-                        <a href="assets/images/portfolio/full/4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="assets/images/portfolio/4/4.jpg" alt="Gallery Thumb 4"></a>
+                        <a href="<?= $constante->getUrl(array(), false, true); ?>logo/clinique.jpg" data-lightbox="gallery-item"><img class="image_fade" src="assets/images/portfolio/4/1.jpg" alt="Gallery Thumb 1"></a>
+                        <a href="<?= $constante->getUrl(array(), false, true); ?>logo/keepcool.png" data-lightbox="gallery-item"><img class="image_fade" src="assets/images/portfolio/4/2.jpg" alt="Gallery Thumb 2"></a>
+                        <a href="<?= $constante->getUrl(array(), false, true); ?>logo/cridip.png" data-lightbox="gallery-item"><img class="image_fade" src="assets/images/portfolio/4/3.jpg" alt="Gallery Thumb 3"></a>
+                        <a href="<?= $constante->getUrl(array(), false, true); ?>logo/scpvs.png" data-lightbox="gallery-item"><img class="image_fade" src="assets/images/portfolio/4/4.jpg" alt="Gallery Thumb 4"></a>
                         <a href="assets/images/portfolio/full/5.jpg" data-lightbox="gallery-item"><img class="image_fade" src="assets/images/portfolio/4/5.jpg" alt="Gallery Thumb 5"></a>
                         <a href="assets/images/portfolio/full/6.jpg" data-lightbox="gallery-item"><img class="image_fade" src="assets/images/portfolio/4/6.jpg" alt="Gallery Thumb 6"></a>
                         <a href="assets/images/portfolio/full/7.jpg" data-lightbox="gallery-item"><img class="image_fade" src="assets/images/portfolio/4/7.jpg" alt="Gallery Thumb 7"></a>
