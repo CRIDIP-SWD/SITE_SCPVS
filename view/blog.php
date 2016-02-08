@@ -62,65 +62,14 @@
 
                         <?= html_entity_decode($article[0]->contenue); ?>
 
-                        <!-- Tag Cloud
-                        ============================================= -->
-                        <div class="tagcloud clearfix bottommargin">
-                            <a href="#">general</a>
-                            <a href="#">information</a>
-                            <a href="#">media</a>
-                            <a href="#">press</a>
-                            <a href="#">gallery</a>
-                            <a href="#">illustration</a>
-                        </div><!-- .tagcloud end -->
 
                         <div class="clear"></div>
 
-                        <!-- Post Single - Share
-                        ============================================= -->
-                        <div class="si-share noborder clearfix">
-                            <span>Share this Post:</span>
-                            <div>
-                                <a href="#" class="social-icon si-borderless si-facebook">
-                                    <i class="icon-facebook"></i>
-                                    <i class="icon-facebook"></i>
-                                </a>
-                                <a href="#" class="social-icon si-borderless si-twitter">
-                                    <i class="icon-twitter"></i>
-                                    <i class="icon-twitter"></i>
-                                </a>
-                                <a href="#" class="social-icon si-borderless si-pinterest">
-                                    <i class="icon-pinterest"></i>
-                                    <i class="icon-pinterest"></i>
-                                </a>
-                                <a href="#" class="social-icon si-borderless si-gplus">
-                                    <i class="icon-gplus"></i>
-                                    <i class="icon-gplus"></i>
-                                </a>
-                                <a href="#" class="social-icon si-borderless si-rss">
-                                    <i class="icon-rss"></i>
-                                    <i class="icon-rss"></i>
-                                </a>
-                                <a href="#" class="social-icon si-borderless si-email3">
-                                    <i class="icon-email3"></i>
-                                    <i class="icon-email3"></i>
-                                </a>
-                            </div>
-                        </div><!-- Post Single - Share End -->
 
                     </div>
                 </div><!-- .entry end -->
-
-                <!-- Post Navigation
-                ============================================= -->
-                <div class="post-navigation clearfix">
-
-                    <div class="col_half nobottommargin">
-                        <a href="#">&lArr; This is a Standard post with a Slider Gallery</a>
-                    </div>
-
-                    <div class="col_half col_last tright nobottommargin">
-                        <a href="#">This is an Embedded Audio Post &rArr;</a>
-                    </div>
-
-                </div><!-- .post-navigation end -->
+            </div>
+        </div>
+    </div>
+</section>
 <?php endif; ?>
