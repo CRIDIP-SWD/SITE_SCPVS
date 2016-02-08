@@ -1,6 +1,47 @@
 <?php if(!isset($_GET['sub'])): ?>
+    <!-- Content
+============================================= -->
+    <section id="content">
 
+        <div class="content-wrap">
 
+            <div class="promo promo-full promo-border header-stick bottommargin-lg">
+                <div class="container clearfix">
+                    <h3>Faite un dons à l'association et aider 7 millions de français à ce sentir<br>mieux dans leur corps.</h3>
+                    <a href="index.php?view=don" class="button button-reveal button-xlarge button-rounded tright"><i class="icon-angle-right"></i><span>Faire un don</span></a>
+                </div>
+            </div>
+
+            <div class="container clearfix">
+                <h2>A la Une</h2>
+                <div id="posts" class="small-thumbs">
+                    <div class="entry clearfix">
+                        <div class="entry-image">
+                            <a data-lightbox="image" href="<?= $constante->getUrl(array(), false, true); ?>article/obesite_monde.jpg"><img alt="16% d'obèse en france" src="<?= $constante->getUrl(array(), false, true); ?>article/obesite_monde.jpg" class="image_fade" style="opacity: 1;"></a>
+                        </div>
+                        <div class="entry-c">
+                            <div class="entry-title">
+                                <h2><a href="index.php?view=blog&sub=article&ref=1">16% d'obèse en france</a></h2>
+                            </div>
+                            <ul class="entry-meta clearfix">
+                                <li><i class="icon-calendar3"></i> 04 Janvier 2016</li>
+                                <li><a href="#"><i class="icon-user"></i> SCPVS</a></li>
+                                <li><i class="icon-folder-open"></i> <a href="#">General</a>, <a href="#">Obésité</a></li>
+                                <!--<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>-->
+                                <!--<li><a href="#"><i class="icon-camera-retro"></i></a></li>-->
+                            </ul>
+                            <div class="entry-content">
+                                <p>Le constat est alarmant, lors des derniers recensements de 2015, le pourcentage de la population française atteint d'obésité est de 16%...</p>
+                                <a class="more-link" href="index.php?view=blog&sub=article&ref=1">En savoir plus...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section><!-- #content end -->
 <?php endif; ?>
 <?php if(isset($_GET['sub']) && $_GET['sub'] == 'article'): ?>
 
