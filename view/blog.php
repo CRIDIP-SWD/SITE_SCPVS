@@ -3,10 +3,6 @@
 
 <?php endif; ?>
 <?php if(isset($_GET['sub']) && $_GET['sub'] == 'article'): ?>
-    <?php
-    $ref = $_GET['ref'];
-    $article = $DB->query("SELECT * FROM blog WHERE idarticle = :ref", array("ref" => $ref));
-    ?>
 
 <!-- Page Title
     ============================================= -->
@@ -17,7 +13,7 @@
         <ol class="breadcrumb">
             <li><a href="#">SCPVS</a></li>
             <li><a href="#">Article</a></li>
-            <li class="active"><?= $article[0]->titre_article; ?></li>
+            <li class="active">16% d'obèse en france</li>
         </ol>
     </div>
 
@@ -40,27 +36,27 @@
                     <!-- Entry Title
                     ============================================= -->
                     <div class="entry-title">
-                        <h2><?= $article[0]->titre_article; ?></h2>
+                        <h2>16% d'obèse en france</h2>
                     </div><!-- .entry-title end -->
 
                     <!-- Entry Meta
                     ============================================= -->
                     <ul class="entry-meta clearfix">
-                        <li><i class="icon-calendar3"></i> <?= $date_format->format($article[0]->date_article); ?></li>
-                        <li><a href="#"><i class="icon-user"></i> <?= $article[0]->auteur_article; ?></a></li>
+                        <li><i class="icon-calendar3"></i> 21 Janvier 2016 à 00:56</li>
+                        <li><a href="#"><i class="icon-user"></i> SCPVS</a></li>
                     </ul><!-- .entry-meta end -->
 
                     <!-- Entry Image
                     ============================================= -->
                     <div class="entry-image bottommargin">
-                        <a href="#"><img src="assets/images/blog/full/10.jpg" alt="Blog Single"></a>
+                        <a href="#"><img src="<?= $constante->getUrl(array(), false, true); ?>article/obesite_monde.jpg" alt="Blog Single"></a>
                     </div><!-- .entry-image end -->
 
                     <!-- Entry Content
                     ============================================= -->
                     <div class="entry-content notopmargin">
 
-                        <?= html_entity_decode($article[0]->contenue); ?>
+                        <p>En France 30% des personnes sont en surpoids et 16% obèses. Rythme de vie et mauvaises habitudes alimentaires, une spirale que l'on veut enrayer. Une fois par an, enfants, pédiatres et diététiciens se réunissent pour mieux comprendre les causes du problème. Souvent cela commence par des recettes simples. Les parents peuvent ainsi comparer leurs expériences. Enfin, il faut éviter la sédentarité. 10 000 pas par jour sont recommandés, soit environ 1h 30 de marche à une vitesse normale.</p>
 
 
                         <div class="clear"></div>
