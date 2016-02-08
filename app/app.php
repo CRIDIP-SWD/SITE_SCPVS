@@ -32,7 +32,7 @@ class app
 class constante extends app{
 
     const HTTP              = "http://";
-    const URL               = "scpvs.cridip-swd.com/";
+    const URL               = "test.scpvs.org/";
     const ASSETS            = "assets/";
     const NOM_SITE          = "SCPVS";
     const SOURCES           = "http://ns342142.ip-5-196-76.eu/sources/scpvs/";

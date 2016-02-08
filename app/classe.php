@@ -18,7 +18,7 @@ $app = new app();
 $constante = new constante();
 $date_format = new date_format();
 $fonction = new fonction();
-$DB = new DB();
+//$DB = new DB();
 $ssh2 = new ssh2();
 
 
